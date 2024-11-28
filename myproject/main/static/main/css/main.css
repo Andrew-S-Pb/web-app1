@@ -1,0 +1,58 @@
+body  {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/watercolor-abstract-floral-background_52683-134424.jpg?t=st=1730362117~exp=1730365717~hmac=1cedbc18a83d99611539015303e2d91d1d08a5549a3353993bafa339d7c43d3f&w=1380');
+    background-size: cover;
+	background-position: center;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: greenyellow;
+    border-right: 5px solid pink;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 38px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: darkgreen;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: violet;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 8000px; margin: 20px auto}
